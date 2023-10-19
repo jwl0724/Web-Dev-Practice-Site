@@ -11,8 +11,9 @@ header {
 }
 
 #navbar {
-    display: block;
+    display: flex;
     background-color: black;
+    justify-content: space-between;
 }
 
 #navbar a {
