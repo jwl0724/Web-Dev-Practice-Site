@@ -1,0 +1,2 @@
+## About The Repository
+This repository is used as practice for my web development class, and potentially further practice after the class. The site is a compilation of all the practice sites created throughout the course.
