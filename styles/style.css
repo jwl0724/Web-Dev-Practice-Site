@@ -4,6 +4,12 @@ body {
     padding: 0px;
 }
 
+#main>h4 {
+    text-align: center;
+    background-color: lightgray;
+    padding: 1em;
+}
+
 header {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
