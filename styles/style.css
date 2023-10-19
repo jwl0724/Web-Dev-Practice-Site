@@ -61,9 +61,10 @@ header {
     text-align: center;
 }
 
-.sample-site iframe {
+.sample-site img{
     box-sizing: border-box;
     width: 100%;
-    border-style: none;
-    border-radius: 25px;
+    height: 400px;
+    padding: 1em;
+    object-fit: scale-down;
 }
