@@ -67,4 +67,5 @@ header {
     height: 400px;
     padding: 1em;
     object-fit: scale-down;
+    -webkit-user-drag: none;
 }
