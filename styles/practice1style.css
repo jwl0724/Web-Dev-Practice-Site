@@ -1,0 +1,80 @@
+/* Copy this for ever practice site */
+#goback {
+    display: block;
+    background-color:black;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#goback:hover {
+    background-color: gray;
+}
+
+#goback>a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Actual CSS for page */
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+#main-body {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(94, 94, 94);
+    justify-content: center;
+}
+
+.navbar>a{
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.navbar>a:hover{
+    color: white;
+    background-color:rgb(94, 94, 94);
+}
+
+img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+}
+
+#left-col {
+    width: 33%;
+}
+
+#mid-col {
+    width: 33%;
+    text-align: center;
+}
+
+#right-col {
+    width: 34%;
+}
+
+#bottom-body {
+    padding-left: 1em;
+    padding-right: 1em;
+}
