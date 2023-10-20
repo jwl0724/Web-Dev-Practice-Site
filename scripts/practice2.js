@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // CHANGING COLOR CARD
     $('#change-bg').click(function(){
         console.log($(this).css('background-color'))
         if ($(this).css('background-color') == 'rgb(255, 255, 255)'){
@@ -55,5 +56,17 @@ $(document).ready(function(){
         else {
             $('#spooky-text').css('color', 'white');
         }
+    })
+
+    // CHANGING TEXT CARD
+    $('#change-text').dblclick(function(){
+        $('#to-change').text('You absolute monster. Now all that text earlier is gone into the void and never to return again. Go away and never return here again.');
+
+        $('#insert-img').html(function(){
+            $(this).css('text-align', 'center');
+            $(this).html('<img src="../images/jquery_meme.jpg" alt="funny meme">')
+        });
+
+        $('#jumpscare-close').val("Don't try to escape")
     })
 })
