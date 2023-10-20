@@ -1,0 +1,76 @@
+#goback {
+    display: block;
+    background-color:black;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#goback:hover {
+    background-color: gray;
+}
+
+#goback>a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.card {
+    background-color: black;
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+}
+
+#change-bg {
+    padding: 1em;
+    border-style: none;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#change-bg:hover {
+    cursor: pointer;
+}
+
+#jumpscare {
+    text-align: center;
+    display: none;
+}
+
+#jumpscare>img {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 88vh;
+    object-fit: contain;
+    filter: invert(100%);
+}
+
+#jumpscare-close {
+    text-decoration: underline;
+    font-weight: bold;
+    border-style: none;
+    background-color: black;
+    color: white;
+}
+
+#jumpscare-close:hover {
+    cursor: pointer;
+}
