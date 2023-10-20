@@ -1,7 +1,11 @@
+function get_number(range) {
+    let randomNumber = Math.floor(Math.random()*range);
+    return randomNumber
+}
+
 $(document).ready(function(){
     // CHANGING COLOR CARD
     $('#change-bg').click(function(){
-        console.log($(this).css('background-color'))
         if ($(this).css('background-color') == 'rgb(255, 255, 255)'){
             $('#bg-changing-card').css({
                 'background-color': 'white',
@@ -39,9 +43,7 @@ $(document).ready(function(){
     })
 
     $('#bg-changing-card').mouseenter(function(){
-        console.log($(this).css('background-color'))
         if ($(this).css('background-color') == 'rgb(0, 0, 0)') {
-            console.log('yes');
             $('#spooky-text').css('color', 'white');
         }
         else {
@@ -68,5 +70,12 @@ $(document).ready(function(){
         });
 
         $('#jumpscare-close').val("Don't try to escape")
+    })
+  
+    // ADDING STUFF
+    $('#append').click(function(){
+        $('#number-list').append(function(){
+            $(this).append(get_number());
+        })
     })
 })
