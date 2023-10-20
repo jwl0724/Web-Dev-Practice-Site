@@ -29,13 +29,15 @@ body {
 }
 
 .card {
-    background-color: black;
     margin: 2em;
     padding: 2em;
+    background-color: lightgray;
+    border-radius: 25px;
 }
 
 #bg-changing-card {
     text-align: center;
+    background-color: black;
 }
 
 #change-bg {
