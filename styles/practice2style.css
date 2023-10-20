@@ -32,6 +32,9 @@ body {
     background-color: black;
     margin: 2em;
     padding: 2em;
+}
+
+#bg-changing-card {
     text-align: center;
 }
 
