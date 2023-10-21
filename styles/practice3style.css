@@ -1,0 +1,71 @@
+#goback {
+    display: block;
+    background-color:black;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#goback:hover {
+    background-color: gray;
+}
+
+#goback>a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+
+/* CSS STARTS HERE */
+#top-part {
+    display: flex;
+}
+
+#title {
+    font-size: 2em;
+    color: rgb(212, 71, 71);
+    font-family: serif;
+    font-weight: bold;
+}
+
+.left-col {
+    width: 35%;
+}
+
+.mid-col {
+    width: 30%;
+    text-align: center;
+}
+
+.right-col {
+    width: 35%;
+}
+
+.navbar {
+    display: flex;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 2px;
+    justify-content: space-evenly;
+}
+
+.navbar>a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+.navbar>h1 {
+    font-family: serif;
+    color: rgb(180, 39, 39);
+}
