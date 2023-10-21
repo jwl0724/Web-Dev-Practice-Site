@@ -94,8 +94,7 @@ body {
 .padded {
     padding-left: 3em;
     padding-right: 3em;
-    padding-top: 1.5em;
-    line-height: 22px;
+    line-height: 27px;
     box-sizing: border-box;
 }
 
@@ -111,9 +110,15 @@ img {
 }
 
 #middle-part {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
+    font-family: serif;
+}
+
+#middle-part>p{
+    width: 65%;
 }
 
 #footer {
@@ -131,4 +136,34 @@ img {
     padding-right: 2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 927px) {
+    #top-part {
+        flex-direction: column;
+    }
+
+    #main-body {
+        flex-direction: column;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .left-col {
+        width: 100%;
+    }
+
+    .right-col {
+        width: 100%;
+    }
+
+    .mid-col {
+        width: 100%;
+    }
+
+    #footer>a {
+        display: block;
+    }
 }
