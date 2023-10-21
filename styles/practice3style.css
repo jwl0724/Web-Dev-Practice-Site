@@ -31,7 +31,7 @@ body {
 
 #title {
     font-size: 2em;
-    color: rgb(212, 71, 71);
+    color: rgb(180, 39, 39);
     font-family: serif;
     font-weight: bold;
 }
@@ -105,6 +105,30 @@ body {
 
 img {
     width: 100%;
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
     box-sizing: border-box;
+}
+
+#middle-part {
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#footer {
+    background-color: rgb(180, 39, 39);
+    text-align: center;
+    padding: 2em;
+}
+
+#footer>a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(180, 39, 39);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
