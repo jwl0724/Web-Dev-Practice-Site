@@ -69,3 +69,25 @@ body {
     font-family: serif;
     color: rgb(180, 39, 39);
 }
+
+#quotes-section {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.quote {
+    font-family: serif;
+}
+
+.quoter {
+    letter-spacing: 2px;
+}
+
+.big-quote {
+    font-size: 37px;
+}
+
+#main-body {
+    display: flex;
+}
+
