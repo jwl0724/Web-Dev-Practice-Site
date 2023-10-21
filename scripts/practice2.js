@@ -72,10 +72,24 @@ $(document).ready(function(){
         $('#jumpscare-close').val("Don't try to escape")
     })
   
-    // ADDING STUFF
+    // APPENDING CARD
     $('#append').click(function(){
         $('#number-list').append(function(){
-            $(this).append(get_number());
+            let range = $('#range-input').val();
+            if (range == NaN || range == 0) {
+                range = 69;
+            }
+            $(this).append('<p class="number-entry">' + String(get_number(range)) + '</p>');
+        })
+    })
+
+    $('#clear').click(function(){
+        $('#number-list').empty();
+    })
+
+    $('#remove').click(function(){
+        $('#number-list').append(function(){
+            $(this).children('p:last-child').remove();
         })
     })
 })
