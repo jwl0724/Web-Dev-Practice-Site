@@ -84,3 +84,48 @@ body {
 #jumpscare-close:hover {
     cursor: pointer;
 }
+
+.numbers-button {
+    border-style: none;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    margin: 1em;
+}
+
+#range-input {
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 7px;
+    padding: 1em;
+}
+
+#range-input:focus{
+    outline-style: none;
+}
+
+#range-input::-webkit-inner-spin-button,
+#range-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0px;
+}
+
+#range-input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#number-list {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+}
+
+#number-list>p{
+    background-color: rgb(54, 53, 53);
+    border-radius: 25px;
+    padding: 5px;
+    box-sizing: border-box;
+}

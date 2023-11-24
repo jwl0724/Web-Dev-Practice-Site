@@ -1,0 +1,169 @@
+#goback {
+    display: block;
+    background-color:black;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#goback:hover {
+    background-color: gray;
+}
+
+#goback>a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+
+/* CSS STARTS HERE */
+#top-part {
+    display: flex;
+}
+
+#title {
+    font-size: 2em;
+    color: rgb(180, 39, 39);
+    font-family: serif;
+    font-weight: bold;
+}
+
+.left-col {
+    width: 35%;
+}
+
+.mid-col {
+    width: 30%;
+    text-align: center;
+}
+
+.right-col {
+    width: 35%;
+}
+
+.navbar {
+    display: flex;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 2px;
+    justify-content: space-evenly;
+}
+
+.navbar>a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+.navbar>h1 {
+    font-family: serif;
+    color: rgb(180, 39, 39);
+}
+
+#quotes-section {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.quote {
+    font-family: serif;
+}
+
+.quoter {
+    letter-spacing: 2px;
+}
+
+.big-quote {
+    font-size: 37px;
+}
+
+#main-body {
+    display: flex;
+}
+
+.padded {
+    padding-left: 3em;
+    padding-right: 3em;
+    line-height: 27px;
+    box-sizing: border-box;
+}
+
+#middle-quote {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    box-sizing: border-box;
+}
+
+#middle-part {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: serif;
+}
+
+#middle-part>p{
+    width: 65%;
+}
+
+#footer {
+    background-color: rgb(180, 39, 39);
+    text-align: center;
+    padding: 2em;
+}
+
+#footer>a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(180, 39, 39);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 927px) {
+    #top-part {
+        flex-direction: column;
+    }
+
+    #main-body {
+        flex-direction: column;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .left-col {
+        width: 100%;
+    }
+
+    .right-col {
+        width: 100%;
+    }
+
+    .mid-col {
+        width: 100%;
+    }
+
+    #footer>a {
+        display: block;
+    }
+}
